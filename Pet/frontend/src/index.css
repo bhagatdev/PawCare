@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --font-heading: 'Outfit', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0d151c;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Custom Glassmorphism & Glow Effects */
+.glass-panel {
+  background: rgba(19, 31, 44, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.teal-glow {
+  box-shadow: 0 0 35px -5px rgba(20, 184, 166, 0.3);
+}
+
+.coral-glow {
+  box-shadow: 0 0 35px -5px rgba(249, 115, 22, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090e13;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f766e;
+}

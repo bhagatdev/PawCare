@@ -1,0 +1,15 @@
+{
+  "name": "pet-healthcare-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run dev",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "framer-motion": "^13.4.6",
+    "lucide-react": "^1.49.0"
+  }
+}
